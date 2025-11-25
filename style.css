@@ -1,0 +1,25 @@
+body {
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+}
+.number{
+    width: 60px;
+}
+.osnova{
+    display: contents;
+    gap: 10px;
+}
+input{
+    width: auto;
+}
+.trues{
+    color: green;
+}
+.falses{
+    color: red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Document</title>  
+  <link rel="stylesheet" href="style.css">  
+  <script src="script.js" defer> </script>  
+</head>  
+<body>    
+  <div class="osnova">
+    <div><input type="radio" name="level" id="easy" value="1">easy
+      <br>
+        <input type="radio" name="level" id="medium" value="2">medium
+        <br>
+        <input type="radio" name="level" id="Hard" value="3">Hard
+        <br>
+    </div>
+    <input type="text" id="slovo">
+    <br>
+    <input type="text" value="" id="pereclad">
+    <br>
+    <button id="check" onclick="check()">check</button>
+    <br>
+    <button id="start" onclick="start()">start</button>
+    <br>
+    <div>
+      <p class="trues">правильно <input type="number" class="number" id="trues"></p>
+       <p class="falses">Не правильно <input type="number" class="number" id="falses"></p>
+    </div>
+  </div>
+</body>  
+</html> 
